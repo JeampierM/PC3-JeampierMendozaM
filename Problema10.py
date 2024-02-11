@@ -15,13 +15,13 @@ def ingresar_numero(mensaje):
 
 def menu():
     while True:
-        print("\nMenú de Cálculos:")
+        print("\nMenú:")
         print("1. Calcular el área de un círculo")
         print("2. Calcular el área de un rectángulo")
         print("3. Calcular el área de un cuadrado")
         print("4. Salir")
 
-        opcion = input("Ingrese la opción deseada (1-4): ")
+        opcion = input("Digite una opcion: ")
 
         if opcion == '1':
             radio_ingresado = ingresar_numero("Ingrese el radio del círculo: ")
